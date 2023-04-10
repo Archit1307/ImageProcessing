@@ -95,12 +95,12 @@ while True:
 		# initialize the color of the annotation
 		(startX, startY, endX, endY) = bbox
 		(cX, cY) = centroid
-		color = (255, 255, 255)
+		color = (0, 255, 0)
 
 		# if the index pair exists within the violation set, then
 		# update the color
 		if i in violate:
-			color = (255, 255, 255)
+			color = (0, 0, 255)
 
 		# draw (1) a bounding box around the person and (2) the
 		# centroid coordinates of the person,
